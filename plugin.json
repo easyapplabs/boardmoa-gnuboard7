@@ -5,7 +5,7 @@
         "ko": "게시판모아 앱 연결",
         "en": "BoardMoa App Connector"
     },
-    "version": "1.1.20",
+    "version": "1.1.21",
     "description": {
         "ko": "게시판모아(BoardMoa) 모바일 앱에서 이 사이트의 게시판을 보고 쓸 수 있게 합니다. 권한은 그누보드7 게시판 설정을 그대로 따릅니다.",
         "en": "Lets the BoardMoa mobile app read and write this site's boards. Permissions follow the Gnuboard7 board settings."

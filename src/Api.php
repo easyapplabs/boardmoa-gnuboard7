@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class Api
 {
-    const VERSION = '1.1.20';
+    const VERSION = '1.1.21';
 
     /** route => [메서드, 로그인 필요(true)/선택(false)/토큰 안 봄(null), 처리] */
     private const ROUTES = [
@@ -39,7 +39,7 @@ class Api
         'comment.update' => ['POST', false, [Write::class, 'commentUpdate']],
         'comment.delete' => ['POST', false, [Write::class, 'commentDelete']],
         'comment.vote' => ['POST', false, [Write::class, 'commentVote']],
-        // 댓글 신고 (1.1.20~)
+        // 댓글 신고 (1.1.21~)
         'comment.declare' => ['POST', true, [Write::class, 'commentDeclare']],
         'document.vote' => ['POST', true, [Write::class, 'vote']],
         'document.scrap' => ['POST', true, [Write::class, 'scrap']],
